@@ -9,12 +9,8 @@ namespace TreehouseDefense
       Map map = new Map(8, 5);
       
       Point point = new Point(4, 2);
-      bool IsOnMap = map.OnMap(point);
-      Console.WriteLine(IsOnMap);
-
-      point = new Point(8, 5);
-      IsOnMap = map.OnMap(point);
-      Console.WriteLine(IsOnMap);
+      
+      Console.WriteLine(point.DistanceTo(5, 5));
     }
   }
 }
