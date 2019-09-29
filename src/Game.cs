@@ -10,7 +10,7 @@ namespace TreehouseDefense
 
       try
       {
-        MapLocation[] map = {
+        MapLocation[] path = {
           new MapLocation(0, 2, map),
           new MapLocation(1, 2, map),
           new MapLocation(2, 2, map),
