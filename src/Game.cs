@@ -12,9 +12,9 @@ namespace TreehouseDefense
       {
         MapLocation mapLocatiom = new MapLocation(20, 20, map);
       }
-      catch(Exception)
+      catch(Exception ex)
       {
-        Console.WriteLine("That location is not on the map");
+        Console.WriteLine(ex.Message);
       }
     }
   }
