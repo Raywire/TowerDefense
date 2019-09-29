@@ -1,3 +1,4 @@
+![Tower Defense Image](TowerDefense.png)
 ### Prerequisites
 -  [Mono C# Compiler](https://www.mono-project.com/download/stable/)
 
