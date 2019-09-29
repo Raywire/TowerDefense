@@ -5,6 +5,8 @@ namespace TreehouseDefense
     private const int _range = 1;
     private const int _power = 1;
 
+    private static readonly System.Random _random = new System.Random();
+
     private readonly MapLocation _location;
 
     public Tower(MapLocation location)
