@@ -27,7 +27,7 @@ namespace TreehouseDefense
 
         if (path.IsOnPath(location))
         {
-          System.Console.WriteLine("Location is on the path");
+          System.Console.WriteLine($"{location} is on the path");
           return;
         }
 

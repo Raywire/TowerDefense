@@ -19,7 +19,7 @@ namespace TreehouseDefense
     {
       foreach (var pathLocation in _path)
       {
-        if(location == pathLocation)
+        if(location.Equals(pathLocation))
         {
           return true;
         }
