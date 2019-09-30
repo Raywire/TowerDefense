@@ -10,7 +10,7 @@ namespace TreehouseDefense
     protected virtual int StepSize { get; } = 1;
     public MapLocation Location => _path.GetLocationAt(_pathStep);
 
-    public int Health { get; private set; } = 2;
+    public virtual int Health { get; protected set; } = 2;
 
     public bool HasScored { get { return _pathStep >= _path.Length; } }
 
