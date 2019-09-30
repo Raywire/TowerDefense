@@ -28,7 +28,6 @@ namespace TreehouseDefense
         if (path.IsOnPath(location))
         {
           System.Console.WriteLine($"{location} is on the path");
-          return;
         }
 
         Invader[] invaders = 
@@ -36,7 +35,7 @@ namespace TreehouseDefense
           new ShieldedInvader(path),
           new FastInvader(path),
           new StrongInvader(path),
-          new Invader(path)
+          new BasicInvader(path)
         };
 
         Tower[] towers = {
